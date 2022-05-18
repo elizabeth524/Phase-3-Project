@@ -10,7 +10,7 @@ In this project, we will be building models to predict whether or not a person w
 
 ## Business Problem
 
-This data is being prepared for a company that produces vaccines.  They are hoping to use this information to predict the number of vaccines they will need for a certain population in order to reduce waste. 
+This data is being prepared for a company that distributes vaccines.  They are hoping to use this information to predict the number of vaccines they will need for a certain population. 
 
 ## Data
 
@@ -78,20 +78,43 @@ Once we had created our Random Forests and XG Boost models, we could look at the
 Vaccination rates based on these factors:
 
 ![Doctor Rec Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/Doctor%20Recommendation.png)
+People are much more likely to get vaccinated if it is recommended by their doctor.
 
 ![Education Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/Education%20Level.png)
+More people with a higher education level get vaccinated.
 
 ![H1N1 Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/H1N1%20Knowledge.png)
+Those who have more knowledge on the H1N1 virus are more likely to get vaccinated.
 
 ### Comparing Model Scores
 
+We will only talk about our best Decision Tree, Random Forest, and XG Boost when comparing models.  It is important to note that there is still a class imbalance in our test dataset.  This will cause our precision, recall, and f1-score to be lower for the smaller class (1).  This does not mean that our model is not performing well, only that it does not have enough data.
 
+Our Decision Tree model is not overfit.  The scores for the training data and the test data are very similar.  However, we only have an accuracy score of 81% for the test data.
+
+Even though we adjusted our parameters to combat overfitting in our Random Forests, this model is still scoring much better for the training set than for the test set.  However, this model does give us an accuracy score of 83% for the test set.
+
+The XG Boost model is arguably our best model.  It is not overfit to the training data, and also gives us an accuracy score of 84% for our test data.
 
 ## Conclusion and Recommendations
 
+If the company has access to all of this information for it's population groups, then I would recommend using the XG Boost model in order to predict the number of vaccines that they would need to distribute.  This model performed the best without being overfit to the training data.
+
+However, it is unlikely that the company will be able to gather such a vast amount of information from every population. In this case, I recommend:
+
+* Distributing more vaccines to populations with a higher percentage of college graduates.
+* Working with clinics and doctors to understand the amount of patients they are recommending the vaccine to.
 
 ## Next Steps
 
+* Tackle the Class Imbalance
+As shown in the Jupyter Notebook, the class imbalance in the test set is negatively affecting our precision, recall, and f1-scores.  To help address this issue, more information from those who receive the vaccine should be gathered.
+
+* Vaccination Rates by Group
+It would be interesting to look deeper into the vaccination rates by each group (ie, age, race, geographical region).  This could help the company better understand which groups to focus their distribution on.
+
+* Promoting through Clinics
+Since Doctor Recommendation plays such a large part in whether or not a person will get the vaccine, the company could work with clinics and doctors to help educate about and promote the vaccine.
 
 ## For More Information
 
