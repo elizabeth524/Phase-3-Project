@@ -1,4 +1,4 @@
-![Vaccines Picture]()
+![Vaccines Picture](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/H1N1vaccine.jpeg)
 
 # H1N1 Vaccination Rates
 
@@ -77,11 +77,11 @@ Once we had created our Random Forests and XG Boost models, we could look at the
 
 Vaccination rates based on these factors:
 
-![Doctor Rec Plot]()
+![Doctor Rec Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/Doctor%20Recommendation.png)
 
-![Education Plot]()
+![Education Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/Education%20Level.png)
 
-![H1N1 Plot]()
+![H1N1 Plot](https://github.com/elizabeth524/Phase-3-Project/blob/main/Images/H1N1%20Knowledge.png)
 
 ### Comparing Model Scores
 
@@ -95,6 +95,6 @@ Vaccination rates based on these factors:
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook]() or review my [presentation]().
+See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-3-Project/blob/main/H1N1_Data.ipynb) or review my [presentation]().
 
 For additional information, contact Elizabeth Webster at [eaw524@gmail.com](eaw524@gmail.com)
