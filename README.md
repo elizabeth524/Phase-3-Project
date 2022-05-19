@@ -118,6 +118,6 @@ Since Doctor Recommendation plays such a large part in whether or not a person w
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-3-Project/blob/main/H1N1_Data.ipynb) or review my [presentation]().
+See the full analysis in the [Jupyter Notebook](https://github.com/elizabeth524/Phase-3-Project/blob/main/H1N1_Data.ipynb) or review my [presentation](https://github.com/elizabeth524/Phase-3-Project/blob/main/H1N1_Vaccination_Presentation.pdf).
 
 For additional information, contact Elizabeth Webster at [eaw524@gmail.com](eaw524@gmail.com)
